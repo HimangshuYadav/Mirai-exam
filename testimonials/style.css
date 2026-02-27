@@ -1,0 +1,215 @@
+/*background */
+body {
+  background: linear-gradient(to right, #0f1a2b, #1c2f4a);
+  font-family:sans-serif;
+}
+.test_container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 21px;
+  font-size: 16px;
+  color:white;
+  background: rgba(19, 1, 1, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 990px;
+  
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(160, 155, 155, 0.35);
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    font-size: 5vh;
+}
+p{
+    display: flex;
+    color: rgb(186, 180, 180);
+    justify-content: center; 
+    align-items: center;  
+} 
+
+
+/* card section */
+
+.test-section {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #132237, #1c2f4a);
+}
+
+.test-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 29px;
+}
+
+.card {
+  background: linear-gradient(to left, #060606, #031c3f);
+  border-radius: 20px;
+  padding: 30px;
+  width: 350px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card-karthiksir {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.ccard-karthiksir img {
+  width: 60px;
+  height: 60px;
+  border-radius: 55%;
+}
+
+.card-karthiksir h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-karthiksir p {
+  font-size: 14px;
+  color: white;
+}
+
+.test-text {
+  font-size: 14px;
+  line-height: 2;
+  color: white;
+}
+
+.carousels{
+  margin-top: 34px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 9px;
+  width: 97%;            
+}
+
+.carousel {
+  width: 34px;
+  height: 4.5px;
+  background: gray;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.carousel.active {
+  background: white;
+}
+
+.qns {
+  padding: 80px 10%;
+}
+
+.qns-more{
+    background-color: #2563eb;
+    border-radius: 45%;
+    height: 50px;
+    width: 180px;
+    display: flex;           
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.qns-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+
+.qns-left {
+  flex: 1;
+}
+
+.qns-left h1 {
+  font-size: 56px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.qns-left p {
+  color: #9aa4b2;
+  margin-bottom: 30px;
+}
+
+
+.qns-right {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-item {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 14px;
+  padding: 20px 25px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: 0.3s ease;
+}
+
+.qns-content {
+  margin-top: 15px;
+  color: #cbd5e1;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.sectioncard {
+  padding: 20px 40px;
+}
+
+.sectioncard h1 {
+  margin-bottom: 37px;
+  font-size: 30x;
+}
+
+.card-plays {
+  display: flex;
+  gap: 30px;
+}
+
+.cardplay{
+  position: relative;
+  width: 370px;
+  height: 223x;
+  border-radius: 17px;
+}
+
+.cardplay img {
+  margin-left: 99px;
+  width: 100%;
+  height: 100%;
+}
+
+.cardplay:hover img {
+  transform: scale(1.02);
+  transition: 0.2s ease;
+}
